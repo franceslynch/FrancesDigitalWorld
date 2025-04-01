@@ -1,0 +1,345 @@
+/* General Styling */
+body {
+    cursor: url("cursor.ico"), default;
+    background-color: #d8e1ff;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #330066;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    transition: background-image 1s ease;
+}
+
+#main-container {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 3px dashed #ff66cc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff3399;
+    text-shadow: 2px 2px #ffccff;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #6600cc;
+    margin-bottom: 20px;
+}
+
+/* Navigation Styling */
+.nav-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-button {
+    background-color: #ff99cc;
+    border: 2px solid #cc0066;
+    border-radius: 5px;
+    color: #330033;
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.nav-button:hover {
+    background-color: #ffccff;
+    transform: scale(1.05);
+}
+
+.current-page {
+    background-color: #ffccff;
+    border: 2px solid #ff3399;
+}
+
+/* Content Styling */
+.page {
+    padding: 15px;
+}
+
+h2 {
+    color: #9933ff;
+    border-bottom: 2px dotted #cc99ff;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #6600cc;
+    margin-top: 25px;
+}
+
+/* Blog Post Styling */
+.blog-post {
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #cc99ff;
+    padding-bottom: 15px;
+}
+
+.blog-date {
+    font-style: italic;
+    color: #9966cc;
+    margin-bottom: 5px;
+}
+
+.blog-title {
+    font-weight: bold;
+    color: #660099;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.post-tags {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.post-tags span {
+    background-color: #e6e6ff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #6600cc;
+}
+
+.post-notes {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #9966cc;
+}
+
+/* Image Styling */
+.image-container {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.blog-image {
+    max-width: 100%;
+    border: 3px solid #ff99cc;
+    border-radius: 5px;
+}
+
+.image-caption {
+    font-style: italic;
+    font-size: 14px;
+    color: #6600cc;
+    margin-top: 5px;
+}
+
+/* Music Player Styling */
+#music-player {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 204, 255, 0.8);
+    padding: 10px;
+    border: 2px solid #ff66cc;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+#song-info {
+    font-style: italic;
+    color: #660099;
+    font-size: 14px;
+}
+
+.music-control-btn {
+    background-color: #ff9ff3; /* Pink background - adjust to match your site's theme */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.music-control-btn:hover {
+    background-color: #f368e0; /* Darker pink on hover */
+}
+
+.music-control-btn:active {
+    transform: scale(0.95);
+}
+
+/* Counter and Other Elements */
+.visitor-counter {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #660099;
+    background-color: #e6e6ff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px dashed #9966cc;
+}
+
+.under-construction {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.construction-gif {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #6600cc;
+    padding-top: 20px;
+    border-top: 1px dotted #cc99ff;
+}
+
+.last-updated {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Links Styling */
+.web-ring {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.web-ring a {
+    margin: 0 10px;
+    color: #9933ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.web-ring a:hover {
+    text-decoration: underline;
+    color: #cc66ff;
+}
+
+a {
+    color: #9933ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #cc66ff;
+}
+
+/* Blinking Text Styling */
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Song Styling */
+.song-entry {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgba(230, 230, 255, 0.5);
+    border-radius: 10px;
+    border-left: 5px solid #9966cc;
+}
+
+.song-date {
+    font-style: italic;
+    color: #9966cc;
+    margin-bottom: 5px;
+}
+
+.song-title {
+    font-weight: bold;
+    color: #660099;
+    font-size: 18px;
+}
+
+.song-artist {
+    color: #9933ff;
+    margin-bottom: 10px;
+}
+
+.song-thoughts {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Links Page Styling */
+.links-section {
+    margin-bottom: 30px;
+}
+
+.link-list {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+/* Mood Styling */
+.mood-tracker {
+    margin-top: 30px;
+    background-color: rgba(255, 230, 255, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px dashed #ff99cc;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    .nav-button {
+        margin-bottom: 8px;
+    }
+    
+    #music-player {
+        bottom: 10px;
+        right: 10px;
+        padding: 5px;
+    }
+}
+
+/*  Cursor */
+body {
+    cursor: url('/images/hellokitty.png'), auto;
+  }
+
+  
