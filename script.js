@@ -2,11 +2,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Background Image Rotation
     const backgroundImages = [
-        '/images/background1.gif',
-        '/images/background2.gif',
-        '/images/background3.gif',
-        '/images/background4.gif',
-        '/images/background5.gif'
+        'images/background1.gif',
+        'images/background2.gif',
+        'images/background3.gif',
+        'images/background4.gif',
+        'images/background5.gif'
     ];
     
     let currentBgIndex = 0;
@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set Initial background
     changeBackgroundImage();
     
-    // Change Background Every 8 Seconds
-    setInterval(changeBackgroundImage, 8000);
+    // Change Background Every 7 Seconds
+    setInterval(changeBackgroundImage, 7000);
     
     // Music Player Elements
     const audioElement = document.getElementById('background-music');
@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Playlist
     const playlist = [
-        { title: "habits (stay high) - hippie sabotage remix", url: "/audio/stayhigh.mp3" },
-        { title: "this is gospel - panic! at the disco", url: "/audio/thisisgospel.mp3" },
-        { title: "radio - lana del rey", url: "/audio/radio.mp3" },
-        { title: "sweater weather - the neighbourhood", url: "/audio/sweaterweather.mp3" },
-        { title: "team - lorde", url:"/audio/team.mp3" }
+        { title: "habits (stay high) - hippie sabotage remix", url: "audio/stayhigh.mp3" },
+        { title: "this is gospel - panic! at the disco", url: "audio/thisisgospel.mp3" },
+        { title: "radio - lana del rey", url: "audio/radio.mp3" },
+        { title: "sweater weather - the neighbourhood", url: "audio/sweaterweather.mp3" },
+        { title: "team - lorde", url:"audio/team.mp3" }
     ];
     
     // Set Initial Song

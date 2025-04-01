@@ -165,7 +165,7 @@ h3 {
 }
 
 .music-control-btn {
-    background-color: #ff9ff3; /* Pink background - adjust to match your site's theme */
+    background-color: #ff9ff3; 
     color: white;
     border: none;
     border-radius: 20px;
@@ -178,7 +178,7 @@ h3 {
 }
 
 .music-control-btn:hover {
-    background-color: #f368e0; /* Darker pink on hover */
+    background-color: #f368e0; 
 }
 
 .music-control-btn:active {
@@ -339,7 +339,7 @@ a:hover {
 
 /*  Cursor */
 body {
-    cursor: url('/images/hellokitty.png'), auto;
+    cursor: url('images/hellokitty.png'), auto;
   }
 
   
